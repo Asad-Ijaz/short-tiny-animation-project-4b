@@ -1,0 +1,34 @@
+{
+  "files": {
+    "main.css": "/short-tiny-animation-project-4b/static/css/main.373f52d3.chunk.css",
+    "main.js": "/short-tiny-animation-project-4b/static/js/main.79674e33.chunk.js",
+    "main.js.map": "/short-tiny-animation-project-4b/static/js/main.79674e33.chunk.js.map",
+    "runtime-main.js": "/short-tiny-animation-project-4b/static/js/runtime-main.2f13c527.js",
+    "runtime-main.js.map": "/short-tiny-animation-project-4b/static/js/runtime-main.2f13c527.js.map",
+    "static/css/2.a1596f27.chunk.css": "/short-tiny-animation-project-4b/static/css/2.a1596f27.chunk.css",
+    "static/js/2.14d90203.chunk.js": "/short-tiny-animation-project-4b/static/js/2.14d90203.chunk.js",
+    "static/js/2.14d90203.chunk.js.map": "/short-tiny-animation-project-4b/static/js/2.14d90203.chunk.js.map",
+    "static/js/3.ae8be3a1.chunk.js": "/short-tiny-animation-project-4b/static/js/3.ae8be3a1.chunk.js",
+    "static/js/3.ae8be3a1.chunk.js.map": "/short-tiny-animation-project-4b/static/js/3.ae8be3a1.chunk.js.map",
+    "index.html": "/short-tiny-animation-project-4b/index.html",
+    "static/css/2.a1596f27.chunk.css.map": "/short-tiny-animation-project-4b/static/css/2.a1596f27.chunk.css.map",
+    "static/css/main.373f52d3.chunk.css.map": "/short-tiny-animation-project-4b/static/css/main.373f52d3.chunk.css.map",
+    "static/js/2.14d90203.chunk.js.LICENSE.txt": "/short-tiny-animation-project-4b/static/js/2.14d90203.chunk.js.LICENSE.txt",
+    "static/media/about1.a9f8426b.jpg": "/short-tiny-animation-project-4b/static/media/about1.a9f8426b.jpg",
+    "static/media/about2.78ce793a.jpg": "/short-tiny-animation-project-4b/static/media/about2.78ce793a.jpg",
+    "static/media/catering.2d881e16.jpg": "/short-tiny-animation-project-4b/static/media/catering.2d881e16.jpg",
+    "static/media/logo.6ce24c58.svg": "/short-tiny-animation-project-4b/static/media/logo.6ce24c58.svg",
+    "static/media/App.css": "/short-tiny-animation-project-4b/static/media/outdoor.16947b99.jpg",
+    "static/media/slider1.f2d11583.jpg": "/short-tiny-animation-project-4b/static/media/slider1.f2d11583.jpg",
+    "static/media/slider2.e27ff4de.jpg": "/short-tiny-animation-project-4b/static/media/slider2.e27ff4de.jpg",
+    "static/media/slider3.55fcf3c8.jpg": "/short-tiny-animation-project-4b/static/media/slider3.55fcf3c8.jpg",
+    "static/media/slider4.d32273aa.jpg": "/short-tiny-animation-project-4b/static/media/slider4.d32273aa.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.2f13c527.js",
+    "static/css/2.a1596f27.chunk.css",
+    "static/js/2.14d90203.chunk.js",
+    "static/css/main.373f52d3.chunk.css",
+    "static/js/main.79674e33.chunk.js"
+  ]
+}
