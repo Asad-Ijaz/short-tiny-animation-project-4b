@@ -1,38 +1,195 @@
-.App {
-  text-align: center;
-}
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.img{
+   width:100% !important;
+   height:100vh !important;
+   display:flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: flex-start;
+   background-size: cover;
+   background-repeat: no-repeat;
+   background-origin: center center;
+   padding-left:60px;
+   font-weight: bold;
+   box-shadow: inset 0 0 500px 1000px rgba(0, 0, 0, 0.5);
+ }
+ .sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index:2;
+   
 }
+ .sliderHeading{
+   color:orange;
+   text-align:left !important;
+ }
+ .carousel .css-cnd76u-MuiPaper-root{
+padding:0px !important;
+ }
+ .App{
+   position:relative;
+ }
+ .navCarousel .css-hip9hq-MuiPaper-root-MuiAppBar-root{
+   position:absolute !important;
+   z-index:2;
+   background-color:transparent;
+   box-shadow:none  !important;
+ }
+ .navCarousel .makeStyles-buttonHidden-12{
+   opacity:1;
+ }
+ .navCarousel .makeStyles-buttonWrapper-8:hover .makeStyles-button-13{
+  background-color: orange !important;
+}
+ .navbar{
+   background-color: transparent  !important;
+   position:absolute ;
+   top:-100;
+   height:60px;
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+
+ }
+ .links a{
+   margin-right:15px;
+   text-decoration: none;
+   font-size: 18px;
+   color:white;
+ }
+ /* .carousel{
+    position:relative;
+    width:100%;
+    height:100%;
+     
+ } */
+ .navcarousel{
+   position:relative !important;
+ }
+ 
+ .carouselcont{
+   width:100%;
+   height:100vh;
+   position:absolute;
+ }
+ .about{
+   text-align: left !important;
+ }
+ .about .aboutHeading{
+   text-align: center;
+ }
+  .aboutimg{
+    height:300px;
+    width:100%;
   }
+  .aboutHeading span, .serviceHeading span{
+    color:orange;
+    font-weight: 700;
+    font-size: 32px;;
+  }
+  .aboutHeading{
+    font-size: 20px;
+    color:black;
+    
+  }
+  .aboutHeading ::before,.serviceHeading ::before{
+    content: '';
+    position: absolute;
+    width:50px;
+    height:5px;
+    background-color: orange;
+    margin-left:-150px;
+    margin-top:23px;
+ }
+ .service{
+   background-image: url('./assets/outdoor.jpg');
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-position: fixed;
+  box-shadow: inset 0 0 500px 1000px rgba(0, 0, 0, 0.8);
+   width:100%;
+ }
+ .serviceHeading{
+   background-color:transparent !important;
+   color:white !important;
+   font-size: 32px !important;
+   font-weight: 700 !important;
+ }
+ .serviceImg{
+  text-align:center !important;
+ }
+ .gallery .serviceHeading{
+   color:black !important;
+ }
+ .gallery .css-1h9z7r5-MuiButtonBase-root-MuiTab-root.Mui-selected {
+  color: orange !important;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.gallery .css-1aquho2-MuiTabs-indicator {
+  background-color: orange !important;
+}
+.gallery .css-1gsv261{
+  border-bottom: none  !important;
+}
+.testimonial{
+  background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRkhUjpb8wgUgnyrvaj_R8rFMAVDyyM2getmw&usqp=CAU');
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-position: center;
+  box-shadow: inset 0 0 500px 1000px rgba(0, 0, 0, 0.8);
+   width:100%;
+   height:350px;
+   display: flex;
+   flex-direction: column;
+   justify-content:space-around;
+   align-items: center;
+   margin-top:30px;
+}
+.testimonial .description{
+  color:white !important;
+}
+.address{
+  display:flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+.contact {
+  width: 100%;
+  height: 200px;
   display: flex;
   flex-direction: column;
-  align-items: center;
+  justify-content: space-around;
+  align-items: flex-start;
+}
+.contactHeading{
+  text-align: left !important;
+}
+.sendMessage{
+  text-align: left !important;
+}
+.footer{
+  height:60px;
+  display:flex;
+  flex-direction: row;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.5) !important;
+  color:white !important;
+}
+.menu a{
+  width:280px;
+  text-decoration: none !important;
+  color:black !important
 }
 
-.App-link {
-  color: #61dafb;
-}
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+
+/* media query */
+@media(max-width:768px){
+  #slidercenterhead{
+    font-size: 32 px !important;
   }
-  to {
-    transform: rotate(360deg);
+}
+@media(max-width:528px){
+  #slidercenterhead{
+    font-size: 18px !important;
   }
 }
